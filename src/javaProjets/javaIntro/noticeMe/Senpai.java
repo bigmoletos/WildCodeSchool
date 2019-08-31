@@ -7,7 +7,7 @@ package javaProjets.javaIntro.noticeMe;
 public class Senpai {
 
 	/**
-	 * @description
+	 * @description quete n°1 Java pour la WildCodeSchool
 	 *
 	 * @return void
 	 *
