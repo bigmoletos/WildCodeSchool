@@ -31,8 +31,8 @@ public class CandyCount {
 ////		   afficher candies
 //
 
-		double money = 12.4;
-		double price = 1.2;
+		float money = 12.4f;
+		float price = 1.2f;
 		int candies = 0;
 
 		if (money > 0 && price > 0) {
@@ -42,7 +42,6 @@ public class CandyCount {
 				money = money - price;
 			}
 		}
-		System.out.println("candies= " + candies);
 		System.out.printf("candies= %d", candies);
 	}
 
