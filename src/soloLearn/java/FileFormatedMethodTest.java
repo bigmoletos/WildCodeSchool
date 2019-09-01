@@ -27,9 +27,14 @@ public class FileFormatedMethodTest {
 	public static void main(String[] args) {
 		try {
 			Formatter f = new Formatter(
-					"D:\\programmation\\formation-Human-Booster\\data-eclipse\\WildCodeSchool\\src\\soloLearn\\java\\fichierTest.txt");
+					"D:\\programmation\\WildCodeSchool\\WildCodeSchool\\src\\soloLearn\\java\\fichierTest.txt");
+//		"D:\\programmation\\formation-Human-Booster\\data-eclipse\\WildCodeSchool\\src\\soloLearn\\java\\fichierTest.txt");
 			f.format("%s %s %s", "1", "John", "Smith \r\n");
 			f.format("%s %s %s", "2", "Amy", "Brown");
+			f.format("%s %s %s", "3", "elton", "John");
+			f.format("%s %s %s", "4", "tarek", "TheRock");
+			f.format("%s %s %s", "5", "Lieru", "Diesel");
+			f.format("%s %s %s", "6", "Minco", "Zapata");
 			f.close();
 		} catch (Exception e) {
 			System.out.println("Error");
