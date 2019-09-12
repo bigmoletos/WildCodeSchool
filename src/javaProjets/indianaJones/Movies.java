@@ -7,6 +7,7 @@ package javaProjets.indianaJones;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * @author franck Desmedt https://github.com/bigmoletos/
@@ -138,6 +139,65 @@ public class Movies {
 		titleMovie.add("Indiana Jones et le Royaume du crâne de cristal");
 		titleMovie.add("Indiana Jones et la Dernière Croisade");
 		// ***************
+		List<Map<String, List<String>>> list = new ArrayList<Map<String, List<String>>>();
+		Map<String, List<String>> map1 = new HashMap<String, List<String>>();
+		List<String> arraylist1 = new ArrayList<String>();
+
+		arraylist1.add("texte1");
+		map1.put("key1", arraylist1);
+		list.add(map1);
+
+		// *********************************
+		// ***************
+		List<Map<String, List<String>>> listTiles = new ArrayList<Map<String, List<String>>>();
+		List<String> nameActor11 = new ArrayList<String>();
+
+		nameActor11.add("texte1");
+		nameActor11.add("harrison Ford");
+		nameActor11.add("Kate Capshaw");
+		nameActor11.add("Jonathan Ke Quan");
+
+		List<String> nameActor12 = new ArrayList<String>();
+		nameActor12.add("harrison Ford");
+		nameActor12.add("Ray Winstone");
+		nameActor12.add("Karen Allen");
+
+		List<String> nameActor13 = new ArrayList<String>();
+		nameActor13.add("harrison Ford");
+		nameActor13.add("Denholm Elliott");
+		nameActor13.add("John Rhys-Davies");
+
+		Map<String, List<String>> titleMovie5 = new HashMap<String, List<String>>();
+		titleMovie5.put("Indiana Jones et les Aventuriers de l'arche perdue", nameActor11);
+		titleMovie5.put("Indiana Jones et le Royaume du crâne de cristal", nameActor12);
+		titleMovie5.put("Indiana Jones et la Dernière Croisade", nameActor13);
+
+		listTiles.add(titleMovie5);
+
+		// *********************************
+		for (List<String> acteur : titleMovie5.values()) {
+			System.out.println("film" + titleMovie5.entrySet() + "actor" + acteur + "\n");
+		}
+		for (Map.Entry<String, List<String>> entry : titleMovie5.entrySet()) {
+            String key = entry.getKey();
+            List<String> values = entry.getValue();
+			System.out.println("Film = " + key);
+			System.out.println("Acteurs = " + values);
+		}
+
+	}
+
+	static void tableauFilm4() {
+		// ************
+		ArrayList<String> titleMovie = new ArrayList<String>();
+		titleMovie.add("Indiana Jones et les Aventuriers de l'arche perdue");
+		titleMovie.add("Indiana Jones et le Royaume du crâne de cristal");
+		titleMovie.add("Indiana Jones et la Dernière Croisade");
+		// ***************
+		List<Map<String, List<String>>> list = new ArrayList<Map<String, List<String>>>();
+		Map<String, List<String>> map1 = new HashMap<String, List<String>>();
+		List<String> arraylist1 = new ArrayList<String>();
+		// *********************************
 
 		HashMap<String, ArrayList<String>> titleMovie4 = new HashMap<String, ArrayList<String>>();
 		List<String> nameActor3 = new ArrayList<String>();
@@ -218,7 +278,9 @@ public class Movies {
 //		}
 //		tableauFilm0();
 //		tableauFilm();
-		tableauFilm2();
+//		tableauFilm2();
+		tableauFilm3();
+//		tableauFilm4();
 	}
 
 }
