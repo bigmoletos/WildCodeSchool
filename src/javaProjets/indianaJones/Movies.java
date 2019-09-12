@@ -7,6 +7,7 @@ package javaProjets.indianaJones;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * @author franck Desmedt https://github.com/bigmoletos/
@@ -137,34 +138,58 @@ public class Movies {
 		titleMovie.add("Indiana Jones et les Aventuriers de l'arche perdue");
 		titleMovie.add("Indiana Jones et le Royaume du crâne de cristal");
 		titleMovie.add("Indiana Jones et la Dernière Croisade");
+
+		// ****************
+		ArrayList<String> nameActor = new ArrayList<String>();
+		nameActor.add("harrison Ford");
+		nameActor.add("Kate Capshaw");
+		nameActor.add("Jonathan Ke Quan");
+
+		nameActor.add("harrison Ford");
+		nameActor.add("Ray Winstone");
+		nameActor.add("Karen Allen");
+
+		nameActor.add("harrison Ford");
+		nameActor.add("Denholm Elliott");
+		nameActor.add("John Rhys-Davies");
+
 		// ***************
+		//*******************
 
 		HashMap<String, ArrayList<String>> titleMovie4 = new HashMap<String, ArrayList<String>>();
 		List<String> nameActor3 = new ArrayList<String>();
 
 		for (int i1 = 0; i1 < 3; i1++) {
-//			titleMovie4.add(nameActor3, "Indiana Jones et le Royaume du crâne de cristal");
-//			titleMovie4.add("Indiana Jones et les Aventuriers de l'arche perdue", "");
-//			titleMovie4.add("Indiana Jones et la Dernière Croisade");
-
-			for (String string : nameActor3) {
-				nameActor3.add("harrison Ford");
-				nameActor3.add("Kate Capshaw");
-				nameActor3.add("Jonathan Ke Quan");
-
-				nameActor3.add("harrison Ford");
-				nameActor3.add("Ray Winstone");
-				nameActor3.add("Karen Allen");
-
-				nameActor3.add("harrison Ford");
-				nameActor3.add("Denholm Elliott");
-				nameActor3.add("John Rhys-Davies");
+			titleMovie4.put("Indiana Jones et les Aventuriers de l'arche perdue", nameActor);
+			titleMovie4.put("Indiana Jones et le Royaume du crâne de cristal", nameActor);
+			titleMovie4.put("Indiana Jones et la Dernière Croisade", nameActor);
+//			titleMovie4.put("Indiana Jones et les Aventuriers de l'arche perdue", new Array)
+//			
+//			titleMovie4.put(titleMovie.get(i1), nameActor3);
+		}
+//			for (String string : nameActor3) {
+//				nameActor3.add("harrison Ford");
+//				nameActor3.add("Kate Capshaw");
+//				nameActor3.add("Jonathan Ke Quan");
+//
+//				nameActor3.add("harrison Ford");
+//				nameActor3.add("Ray Winstone");
+//				nameActor3.add("Karen Allen");
+//
+//				nameActor3.add("harrison Ford");
+//				nameActor3.add("Denholm Elliott");
+//				nameActor3.add("John Rhys-Davies");
 //				titleMovie4.add(nameActor3);
 
-				System.out.println("actor" + nameActor3);
-			}
-		}
+		System.out.println("actor" + nameActor);
+
+//				for (String variable : titleMovie4.) {
+//					System.out.println("film" + titleMovie4+ nameActor);
+//				}
 	}
+
+//		}
+//	}
 
 	public static void main(String[] args) {
 //		Dans la méthode main d'une classe Movies.java, crée :
@@ -218,7 +243,8 @@ public class Movies {
 //		}
 //		tableauFilm0();
 //		tableauFilm();
-		tableauFilm2();
+//		tableauFilm2();
+		tableauFilm3();
 	}
 
 }

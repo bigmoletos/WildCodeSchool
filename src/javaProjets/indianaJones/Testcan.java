@@ -23,7 +23,7 @@ public class Testcan {
 	 *
 	 **/
 	public static void main(String[] args) {
-		// Déclarations des variables
+//		 Déclarations des variables
 
 		double money = 12.5;
 		double price = 1.2;
