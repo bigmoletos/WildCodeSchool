@@ -62,28 +62,30 @@ public class Decipherer {
 //		String messageDecode = "null";
 		//
 		int longeurmessage = message.length();
-//		System.out.println("le message " + message + " à une longeur de: " + longeurmessage + " caractéres");
+		System.out.println("le message " + message + " à une longeur de: " + longeurmessage + " caractéres");
 
 		//
 		int chiffreCle = longeurmessage / 2;
-		String sousChaine = message.substring(6, chiffreCle);
-//		System.out.println("La sous chaine du  message " + message + " du 6 éme caractére au: " + chiffreCle
-//				+ " éme caractére est: " + sousChaine);
+		String sousChaine = message.substring(5, chiffreCle+5);
+		System.out.println("La sous chaine du  message " + message + " du 6 éme caractére au: " + chiffreCle
+				+ " éme caractére est: " + sousChaine);
 		//
 //		StringBuffer buffer = new StringBuffer(sousChaine);
 //		buffer.replaceAll("@#?", " ");
 		String regex = "@#?";
 		String NewsousChaine = sousChaine.replaceAll(regex, " ");
+//		String regex2 = "?";
+//		String NewsousChaine2 = NewsousChaine.replaceAll(regex2, " ");
 //		String NewsousChaine = buffer.toString();
 
-//		System.out.println("remplacement des caractéres @#? par un espace dans la sous chaine  " + sousChaine
-//				+ " nous donne :" + NewsousChaine);
-//
+		System.out.println("remplacement des caractéres @#? par un espace dans la sous chaine  " + sousChaine
+				+ " nous donne :" + NewsousChaine);
+
 //		regex=[**-1];
 		StringBuffer messageDecode = (new StringBuffer(NewsousChaine)).reverse();
 //		messageDecode = NewsousChaine.revert();
-//		System.out
-//				.println("l'inversion de la nouvelle sous chaine  " + NewsousChaine + " nous donne :" + messageDecode);
+		System.out
+				.println("l'inversion de la nouvelle sous chaine  " + NewsousChaine + " nous donne :" + messageDecode);
 		System.out.println("message initial: " + message + " message décodé: " + messageDecode);
 		return messageDecode;
 

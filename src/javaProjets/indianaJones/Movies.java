@@ -133,27 +133,8 @@ public class Movies {
 
 //version Hashmap
 	static void tableauFilm3() {
-		// ************
-		ArrayList<String> titleMovie = new ArrayList<String>();
-		titleMovie.add("Indiana Jones et les Aventuriers de l'arche perdue");
-		titleMovie.add("Indiana Jones et le Royaume du crâne de cristal");
-		titleMovie.add("Indiana Jones et la Dernière Croisade");
-
-		// ****************
-		ArrayList<String> nameActor = new ArrayList<String>();
-		nameActor.add("harrison Ford");
-		nameActor.add("Kate Capshaw");
-		nameActor.add("Jonathan Ke Quan");
-
-		nameActor.add("harrison Ford");
-		nameActor.add("Ray Winstone");
-		nameActor.add("Karen Allen");
-
-		nameActor.add("harrison Ford");
-		nameActor.add("Denholm Elliott");
-		nameActor.add("John Rhys-Davies");
-
 		// ***************
+//		théorie
 		List<Map<String, List<String>>> list = new ArrayList<Map<String, List<String>>>();
 		Map<String, List<String>> map1 = new HashMap<String, List<String>>();
 		List<String> arraylist1 = new ArrayList<String>();
@@ -162,10 +143,9 @@ public class Movies {
 		map1.put("key1", arraylist1);
 		list.add(map1);
 
-		// *********************************
-		// ***************
 		List<Map<String, List<String>>> listTiles = new ArrayList<Map<String, List<String>>>();
 		List<String> nameActor11 = new ArrayList<String>();
+		// ***************
 
 		nameActor11.add("harrison Ford");
 		nameActor11.add("Kate Capshaw");
@@ -193,21 +173,22 @@ public class Movies {
 //			System.out.println("film" + titleMovie5.entrySet() + "actor" + acteur + "\n");
 //		}
 		for (Map.Entry<String, List<String>> entry : titleMovie5.entrySet()) {
-            String key = entry.getKey();
-            List<String> values = entry.getValue();
+			String key = entry.getKey();
+			List<String> values = entry.getValue();
 //			System.out.println("Dans le film \"" + key + "\" les principaux acteurs sont : " + values);
-            
+//            pour retirer les [], il faut faire une surcharge de toString car System.out.println 
+//            attend un string et ici nous avons une List
 //			System.out.println("Dans le film \"" + key + "\" les principaux acteurs sont : " + values);
-			
+
 //			System.out.printf("Dans le film  %s  ,les principaux acteurs sont : %s",key,values+"\n");
 //			System.out.println("Acteurs = " + values);
-			System.out.print("Dans le film \"" + key+" les principaux acteurs sont : ");
+			System.out.print("Dans le film \"" + key + "\" les principaux acteurs sont : ");
 //				System.out.print("\n");
 			for (String string : values) {
-				System.out.print(string);
-				System.out.print("\n");
-				
+				System.out.print(string + " ");
+
 			}
+			System.out.print("\n");
 		}
 
 	}
@@ -249,7 +230,7 @@ public class Movies {
 //				nameActor3.add("John Rhys-Davies");
 //				titleMovie4.add(nameActor3);
 
-		System.out.println("actor" );
+		System.out.println("actor");
 
 //				for (String variable : titleMovie4.) {
 //					System.out.println("film" + titleMovie4+ nameActor);
