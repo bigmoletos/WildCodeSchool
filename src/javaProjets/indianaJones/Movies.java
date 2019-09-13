@@ -167,7 +167,6 @@ public class Movies {
 		List<Map<String, List<String>>> listTiles = new ArrayList<Map<String, List<String>>>();
 		List<String> nameActor11 = new ArrayList<String>();
 
-		nameActor11.add("texte1");
 		nameActor11.add("harrison Ford");
 		nameActor11.add("Kate Capshaw");
 		nameActor11.add("Jonathan Ke Quan");
@@ -190,14 +189,14 @@ public class Movies {
 		listTiles.add(titleMovie5);
 
 		// *********************************
-		for (List<String> acteur : titleMovie5.values()) {
-			System.out.println("film" + titleMovie5.entrySet() + "actor" + acteur + "\n");
-		}
+//		for (List<String> acteur : titleMovie5.values()) {
+//			System.out.println("film" + titleMovie5.entrySet() + "actor" + acteur + "\n");
+//		}
 		for (Map.Entry<String, List<String>> entry : titleMovie5.entrySet()) {
             String key = entry.getKey();
             List<String> values = entry.getValue();
-			System.out.println("Film = " + key);
-			System.out.println("Acteurs = " + values);
+			System.out.println("Dans le film \"" + key + "\" les principaux acteurs sont : " + values.toArray());
+//			System.out.println("Acteurs = " + values);
 		}
 
 	}
