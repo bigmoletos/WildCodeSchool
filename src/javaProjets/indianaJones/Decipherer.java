@@ -66,13 +66,13 @@ public class Decipherer {
 
 		//
 		int chiffreCle = longeurmessage / 2;
-		String sousChaine = message.substring(6, chiffreCle);
+		String sousChaine = message.substring(5, chiffreCle+5);
 //		System.out.println("La sous chaine du  message " + message + " du 6 éme caractére au: " + chiffreCle
 //				+ " éme caractére est: " + sousChaine);
 		//
 //		StringBuffer buffer = new StringBuffer(sousChaine);
 //		buffer.replaceAll("@#?", " ");
-		String regex = "@#?";
+		String regex = "@#\\?";
 		String NewsousChaine = sousChaine.replaceAll(regex, " ");
 //		String NewsousChaine = buffer.toString();
 
