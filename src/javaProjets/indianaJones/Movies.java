@@ -195,8 +195,19 @@ public class Movies {
 		for (Map.Entry<String, List<String>> entry : titleMovie5.entrySet()) {
             String key = entry.getKey();
             List<String> values = entry.getValue();
-			System.out.println("Dans le film \"" + key + "\" les principaux acteurs sont : " + values);
+//			System.out.println("Dans le film \"" + key + "\" les principaux acteurs sont : " + values);
+            
+//			System.out.println("Dans le film \"" + key + "\" les principaux acteurs sont : " + values);
+			
+//			System.out.printf("Dans le film  %s  ,les principaux acteurs sont : %s",key,values+"\n");
 //			System.out.println("Acteurs = " + values);
+			System.out.print("Dans le film \"" + key+" les principaux acteurs sont : ");
+//				System.out.print("\n");
+			for (String string : values) {
+				System.out.print(string);
+				System.out.print("\n");
+				
+			}
 		}
 
 	}
