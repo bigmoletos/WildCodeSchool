@@ -47,22 +47,22 @@ public class Movies {
 		nameActor.add("John Rhys-Davies");
 		int i = 0, j = 0;
 
-		for (String title : titleMovie) {
-//		i++;
-			System.out.println("Dans le film: " + title + ", les principaux acteurs sont :");
-			for (String name : nameActor) {
-//			j++;
-				System.out.println(name);
-			}
-		}
-		for (String title : titleMovie) {
-			i++;
-			System.out.println("Dans le film: " + title + ", les principaux acteurs sont :");
-			for (String name : nameActor) {
-				j++;
-				System.out.println(name);
-			}
-		}
+//		for (String title : titleMovie.toArray()) {
+////		i++;
+//			System.out.println("Dans le film: " + title + ", les principaux acteurs sont :");
+//			for (String name : nameActor) {
+////			j++;
+//				System.out.println(name);
+//			}
+//		}
+//		for (String title : titleMovie) {
+//			i++;
+//			System.out.println("Dans le film: " + title + ", les principaux acteurs sont :");
+//			for (String name : nameActor) {
+//				j++;
+//				System.out.println(name);
+//			}
+//		}
 
 	}
 
@@ -195,7 +195,7 @@ public class Movies {
 		for (Map.Entry<String, List<String>> entry : titleMovie5.entrySet()) {
             String key = entry.getKey();
             List<String> values = entry.getValue();
-			System.out.println("Dans le film \"" + key + "\" les principaux acteurs sont : " + values.toArray());
+			System.out.println("Dans le film \"" + key + "\" les principaux acteurs sont : " + values);
 //			System.out.println("Acteurs = " + values);
 		}
 
