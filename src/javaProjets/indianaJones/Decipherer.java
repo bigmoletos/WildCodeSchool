@@ -72,7 +72,7 @@ public class Decipherer {
 		//
 //		StringBuffer buffer = new StringBuffer(sousChaine);
 //		buffer.replaceAll("@#?", " ");
-		String regex = "@#?";
+		String regex = "@#\\?";
 		String NewsousChaine = sousChaine.replaceAll(regex, " ");
 //		String regex2 = "?";
 //		String NewsousChaine2 = NewsousChaine.replaceAll(regex2, " ");
