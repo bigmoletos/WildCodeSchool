@@ -27,7 +27,12 @@ public class ClassRoom {
 		wilder.whoAmI("henri", false);
 		wilder.whoAmI("franck", true);
 
-		String[][] listName;
+		String[][] listName=new String[10][10];
+		for (String[] strings : listName) {
+			listName.("franck", true);
+		}
+		
+		
 	}
 
 }
