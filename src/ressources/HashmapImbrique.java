@@ -15,7 +15,8 @@ import java.util.List;
 public class HashmapImbrique {
 
 	/**
-	 * @description quete n°4 Java pour la WildCodeSchool
+	 * @description quete n°4 Java pour la WildCodeSchool voir methode film3 pour
+	 *              l'usage d'un HashMap imbriqué
 	 * @return void
 	 *
 	 * @method main
