@@ -2,13 +2,13 @@
  * 
  *
  */
-package javaProjets.indianaJones;
+package ressources;
 
 /**
  * @author franck Desmedt https://github.com/bigmoletos/
  *
  */
-public class Testcan {
+public class Ternaire {
 
 	/**
 	 * @description
@@ -45,12 +45,8 @@ public class Testcan {
 		int releaseDate = 1989;
 		float notation = 8.2f;
 		System.out.println("titre: " + movie);
-		System.out.println("vue: " + (view == true ? "oui" : "non")); // ternaire java
+		System.out.println("vue: " + (view == true ? "oui" : "non"));// ternaire java
 		System.out.println("sortie: " + releaseDate);
 		System.out.println("note: " + notation);
 	}
-    }
-
-
-
-
+}

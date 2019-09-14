@@ -22,14 +22,15 @@ public class Wilder {
 	 * @see
 	 *
 	 **/
-	
-	 String firstname;
-	 boolean aware;
-	 
+
+	String firstname;
+	boolean aware;
+
 //	 constructeur par defaut
-	 
-	 public Wilder() {
-		}
+
+	public Wilder() {
+	}
+
 //	 constructeur avec arguments
 	/**
 	 * @param firstname
@@ -41,8 +42,7 @@ public class Wilder {
 		this.aware = aware;
 	}
 
-
-//getter
+	// getter
 	/**
 	 * @return the firstname
 	 */
@@ -50,8 +50,7 @@ public class Wilder {
 		return firstname;
 	}
 
-
-//setter
+	// setter
 	/**
 	 * @param firstname the firstname to set
 	 */
@@ -59,8 +58,7 @@ public class Wilder {
 		this.firstname = firstname;
 	}
 
-
-
+	// getter
 	/**
 	 * @return the aware
 	 */
@@ -68,8 +66,7 @@ public class Wilder {
 		return aware;
 	}
 
-
-
+	// setter
 	/**
 	 * @param aware the aware to set
 	 */
@@ -77,7 +74,27 @@ public class Wilder {
 		this.aware = aware;
 	}
 
-
-
-
+	/**
+	 * @description Ajoute une méthode whoAmI() retournant le texte "Je m'appelle
+	 *              firstname et je suis aware" ou "Je m'appelle firstname et je ne
+	 *              suis pas aware", en fonction de l'état des attributs firstname
+	 *              et aware
+	 * @return void
+	 *
+	 * @method whoAmI
+	 * @class Wilder
+	 * @version 1.0
+	 * @param firstname
+	 * @param aware
+	 * @date samedi 14 sept. 2019
+	 * @see
+	 *
+	 **/
+	public void whoAmI(String firstname, boolean aware) {
+		if (aware) {
+			System.out.println("Je m'appelle " + firstname + " et je suis aware");
+		} else {
+			System.out.println("Je m'appelle " + firstname + " et je ne suis pas aware");
+		}
+	}
 }
