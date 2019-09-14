@@ -2,7 +2,7 @@
  * 
  *
  */
-package javaProjets;
+package queteJava06_ProgObjet;
 
 /**
  * @author franck
@@ -26,7 +26,10 @@ public class Wilder {
 	 String firstname;
 	 boolean aware;
 	 
+//	 constructeur par defaut
 	 
+	 public Wilder() {
+		}
 //	 constructeur avec arguments
 	/**
 	 * @param firstname
@@ -76,9 +79,5 @@ public class Wilder {
 
 
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
-	}
 
 }
