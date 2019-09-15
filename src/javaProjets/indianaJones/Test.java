@@ -40,7 +40,7 @@ public class Test {
 //		System.out.println("Dans le film " + movie[1] + ", les principaux acteurs sont: " + cast[1]);
 //		System.out.println("Dans le film " + movie[2] + ", les principaux acteurs sont: " + cast[2]);
 
-		String[][] casting2 = { { cast1 }, { cast2 }, { cast3 } };
+//		String[][] casting2 = { { cast1 }, { cast2 }, { cast3 } };
 		for (int i = 0; i < movie.length; i++) {
 			System.out.println("Dans le film " + movie[i] + ", les principaux acteurs sont: " + cast[i]);
 		}
