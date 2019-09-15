@@ -13,7 +13,7 @@ import java.util.Map;
  * @author franck Desmedt https://github.com/bigmoletos/
  *
  */
-public class Movies {
+public class Movies2 {
 
 	/**
 	 * @description quete n°4 Java pour la WildCodeSchool
@@ -47,22 +47,22 @@ public class Movies {
 		nameActor.add("John Rhys-Davies");
 		int i = 0, j = 0;
 
-//		for (String title : titleMovie.toArray()) {
-////		i++;
-//			System.out.println("Dans le film: " + title + ", les principaux acteurs sont :");
-//			for (String name : nameActor) {
-////			j++;
-//				System.out.println(name);
-//			}
-//		}
-//		for (String title : titleMovie) {
-//			i++;
-//			System.out.println("Dans le film: " + title + ", les principaux acteurs sont :");
-//			for (String name : nameActor) {
-//				j++;
-//				System.out.println(name);
-//			}
-//		}
+		for (String title : titleMovie) {
+//		i++;
+			System.out.println("Dans le film: " + title + ", les principaux acteurs sont :");
+			for (String name : nameActor) {
+//			j++;
+				System.out.println(name);
+			}
+		}
+		for (String title : titleMovie) {
+			i++;
+			System.out.println("Dans le film: " + title + ", les principaux acteurs sont :");
+			for (String name : nameActor) {
+				j++;
+				System.out.println(name);
+			}
+		}
 
 	}
 
@@ -133,8 +133,12 @@ public class Movies {
 
 //version Hashmap
 	static void tableauFilm3() {
+		// ************
+		ArrayList<String> titleMovie = new ArrayList<String>();
+		titleMovie.add("Indiana Jones et les Aventuriers de l'arche perdue");
+		titleMovie.add("Indiana Jones et le Royaume du crâne de cristal");
+		titleMovie.add("Indiana Jones et la Dernière Croisade");
 		// ***************
-//		théorie
 		List<Map<String, List<String>>> list = new ArrayList<Map<String, List<String>>>();
 		Map<String, List<String>> map1 = new HashMap<String, List<String>>();
 		List<String> arraylist1 = new ArrayList<String>();
@@ -143,10 +147,12 @@ public class Movies {
 		map1.put("key1", arraylist1);
 		list.add(map1);
 
+		// *********************************
+		// ***************
 		List<Map<String, List<String>>> listTiles = new ArrayList<Map<String, List<String>>>();
 		List<String> nameActor11 = new ArrayList<String>();
-		// ***************
 
+		nameActor11.add("texte1");
 		nameActor11.add("harrison Ford");
 		nameActor11.add("Kate Capshaw");
 		nameActor11.add("Jonathan Ke Quan");
@@ -169,26 +175,14 @@ public class Movies {
 		listTiles.add(titleMovie5);
 
 		// *********************************
-//		for (List<String> acteur : titleMovie5.values()) {
-//			System.out.println("film" + titleMovie5.entrySet() + "actor" + acteur + "\n");
-//		}
+		for (List<String> acteur : titleMovie5.values()) {
+			System.out.println("film" + titleMovie5.entrySet() + "actor" + acteur + "\n");
+		}
 		for (Map.Entry<String, List<String>> entry : titleMovie5.entrySet()) {
-			String key = entry.getKey();
-			List<String> values = entry.getValue();
-//			System.out.println("Dans le film \"" + key + "\" les principaux acteurs sont : " + values);
-//            pour retirer les [], il faut faire une surcharge de toString car System.out.println 
-//            attend un string et ici nous avons une List
-//			System.out.println("Dans le film \"" + key + "\" les principaux acteurs sont : " + values);
-
-//			System.out.printf("Dans le film  %s  ,les principaux acteurs sont : %s",key,values+"\n");
-//			System.out.println("Acteurs = " + values);
-			System.out.print("Dans le film \"" + key + "\" les principaux acteurs sont : ");
-//				System.out.print("\n");
-			for (String string : values) {
-				System.out.print(string + " ");
-
-			}
-			System.out.print("\n");
+            String key = entry.getKey();
+            List<String> values = entry.getValue();
+			System.out.println("Film = " + key);
+			System.out.println("Acteurs = " + values);
 		}
 
 	}
@@ -209,36 +203,28 @@ public class Movies {
 		List<String> nameActor3 = new ArrayList<String>();
 
 		for (int i1 = 0; i1 < 3; i1++) {
-//			titleMovie4.put("Indiana Jones et les Aventuriers de l'arche perdue", nameActor);
-//			titleMovie4.put("Indiana Jones et le Royaume du crâne de cristal", nameActor);
-//			titleMovie4.put("Indiana Jones et la Dernière Croisade", nameActor);
-//			titleMovie4.put("Indiana Jones et les Aventuriers de l'arche perdue", new Array)
-//			
-//			titleMovie4.put(titleMovie.get(i1), nameActor3);
-		}
-//			for (String string : nameActor3) {
-//				nameActor3.add("harrison Ford");
-//				nameActor3.add("Kate Capshaw");
-//				nameActor3.add("Jonathan Ke Quan");
-//
-//				nameActor3.add("harrison Ford");
-//				nameActor3.add("Ray Winstone");
-//				nameActor3.add("Karen Allen");
-//
-//				nameActor3.add("harrison Ford");
-//				nameActor3.add("Denholm Elliott");
-//				nameActor3.add("John Rhys-Davies");
+//			titleMovie4.add(nameActor3, "Indiana Jones et le Royaume du crâne de cristal");
+//			titleMovie4.add("Indiana Jones et les Aventuriers de l'arche perdue", "");
+//			titleMovie4.add("Indiana Jones et la Dernière Croisade");
+
+			for (String string : nameActor3) {
+				nameActor3.add("harrison Ford");
+				nameActor3.add("Kate Capshaw");
+				nameActor3.add("Jonathan Ke Quan");
+
+				nameActor3.add("harrison Ford");
+				nameActor3.add("Ray Winstone");
+				nameActor3.add("Karen Allen");
+
+				nameActor3.add("harrison Ford");
+				nameActor3.add("Denholm Elliott");
+				nameActor3.add("John Rhys-Davies");
 //				titleMovie4.add(nameActor3);
 
-		System.out.println("actor");
-
-//				for (String variable : titleMovie4.) {
-//					System.out.println("film" + titleMovie4+ nameActor);
-//				}
+				System.out.println("actor" + nameActor3);
+			}
+		}
 	}
-
-//		}
-//	}
 
 	public static void main(String[] args) {
 //		Dans la méthode main d'une classe Movies.java, crée :

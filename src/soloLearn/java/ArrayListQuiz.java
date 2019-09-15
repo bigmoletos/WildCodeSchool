@@ -35,7 +35,7 @@ public class ArrayListQuiz {
 		int x = 0;
 		Iterator<Integer> it = list.iterator();
 		while (it.hasNext()) {
-			x += it.next();
+//			x += it.next();  //erreur it is not visible
 			System.out.println(x);
 		}
 		System.out.println(x);
