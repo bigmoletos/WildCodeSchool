@@ -40,7 +40,6 @@ public class ClassRoom {
 		String[] listName = { "henri", "franck", "hugo", "cher correcteur" };
 		boolean[] awareOrNot = { false, true };
 
-		HashMap<listName, awareOrNot> tabNameAware2 = new HashMap<listName, awareOrNot>();
 
 		for (String name : listName) {
 			for (boolean aware : awareOrNot) {
@@ -48,6 +47,8 @@ public class ClassRoom {
 				System.out.println("");
 			}
 		}
+
+		HashMap<listName, awareOrNot> tabNameAware2 = new HashMap<listName, awareOrNot>();
 
 	}
 
