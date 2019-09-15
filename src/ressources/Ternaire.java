@@ -11,8 +11,7 @@ package ressources;
 public class Ternaire {
 
 	/**
-	 * @description
-	 *
+	 * @description utilisation d'un ternaire
 	 * @return void
 	 *
 	 * @method main
