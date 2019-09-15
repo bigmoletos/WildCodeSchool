@@ -2,7 +2,7 @@
  * 
  *
  */
-package queteJava06_ProgObjet;
+package javaProjets.indianaJones;
 
 /**
  * @author franck
