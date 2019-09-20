@@ -23,8 +23,8 @@ public class Wilder {
 	 *
 	 **/
 
-	String firstname;
-	boolean aware;
+	private String firstname;
+	private boolean aware;
 
 //	 constructeur par defaut
 
