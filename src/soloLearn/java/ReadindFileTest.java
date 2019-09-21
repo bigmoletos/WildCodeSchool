@@ -27,6 +27,8 @@ public class ReadindFileTest {
 	 *
 	 **/
 	public static void main(String[] args) {
+//		path ous linux
+//		"/home/franck/programmation/workspaceEclipse/wcs_projetJava1_dicoutils/wcs_nfs_dicoutils/
 		try {
 			File x = new File(
 					"D:\\programmation\\formation-Human-Booster\\data-eclipse\\WildCodeSchool\\src\\soloLearn\\java\\fichierTest.txt");
@@ -41,6 +43,7 @@ public class ReadindFileTest {
 		System.out.println("************** another test **************");
 		try {
 			File f = new File(
+
 					"D:\\programmation\\formation-Human-Booster\\data-eclipse\\WildCodeSchool\\src\\soloLearn\\java\\fichierTest.txt");
 			Scanner sc = new Scanner(f);
 			while (sc.hasNext()) {
