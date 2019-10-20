@@ -1,0 +1,1 @@
+{"pages_infos":[{"title":"","url":"index.html"},{"title":"","url":"snap_.html"},{"title":"","url":"sub_page.html"},{"title":"","url":"sub_page1.html"}],"word_index":{"connecter":[0],"contact":[0],"mail":[0],"mot":[0],"passe":[0]}}

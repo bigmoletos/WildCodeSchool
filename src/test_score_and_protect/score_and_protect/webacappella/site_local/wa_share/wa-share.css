@@ -1,0 +1,72 @@
+.wa-sharebar {
+	display: none;
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+	left: 0px;
+	position: fixed;
+	z-index: 10000;
+}
+.wa-sharebar .wa-button-sharebar{
+	text-indent:-100000px;
+	background-size: cover;
+	cursor:pointer;
+	vertical-align: bottom;
+	margin-bottom: 0px;
+}
+
+.wa-sharebar > .facebook{
+	background-image: url(facebook.png);
+}
+.wa-sharebar > .twitter{
+	background-image: url(twitter.png);
+}
+.wa-sharebar > .google_plus{
+	background-image: url(google_plus.png);
+}
+.wa-sharebar > .instagram{
+	background-image: url(instagram.png);
+}
+.wa-sharebar > .linkedin{
+	background-image: url(linkedin.png);
+}
+.wa-sharebar > .youtube{
+	background-image: url(youtube.png);
+}
+.wa-sharebar > .snapchat{
+	background-image: url(snapchat.png);
+}
+.wa-sharebar > .pinterest{
+	background-image: url(pinterest.png);
+}
+.wa-sharebar > .mail{
+	background-image: url(mail.png);
+}
+
+.wa-sharebar > .vimeo{
+	background-image: url(vimeo.png);
+}
+
+.wa-sharebar > .viadeo{
+	background-image: url(viadeo.png);
+}
+
+.wa-sharebar > .wikipedia{
+	background-image: url(wikipedia.png);
+}
+
+.wa-sharebar > .flickr{
+	background-image: url(flickr.png);
+}
+
+.wa-sharebar-compact{
+		width: 100%;
+		text-align: center;
+		position: fixed;
+		bottom: 1px;
+}
+.wa-sharebar-compact .wa-button-sharebar {
+		display: inline-block;
+		margin-left: -2px;
+		margin-right: -2px;
+}

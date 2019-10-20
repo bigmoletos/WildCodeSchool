@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<PageData id="{03a093e8-c32d-418b-b0b1-45f892b13e1d}">
+    <sync_inst>
+        <uuid_update val="ad23521b_e8c7_4f4d_b8dd_dff980fb9f6c"/>
+        <uuid_res val=""/>
+    </sync_inst>
+    <lng>
+        <objects type="Map[QString]=PageMultilingualData"/>
+    </lng>
+    <resp>
+        <objects type="Map[ScreenResponsive]=PageResponsiveData">
+            <ITEM>
+                <KEY>
+                    <index val="1024"/>
+                </KEY>
+                <VAL>
+                    <key>
+                        <index val="1024"/>
+                    </key>
+                    <page_height val="1000"/>
+                </VAL>
+            </ITEM>
+        </objects>
+    </resp>
+    <item_objects type="SmartList[DataSerializableItem*]">
+        <ITEM class="DataItemImage" id="{efa2f0d3-404a-475f-b93e-254a639541e0}">
+            <locked val="false"/>
+            <uuid_group val=""/>
+            <type_lock_to_bottom val="0"/>
+            <z val="5"/>
+            <ban_mode val="0"/>
+            <text_wrapping>
+                <type_wrap val="0"/>
+            </text_wrapping>
+            <dev>
+                <dev>
+                    <enabled val="false"/>
+                    <css_class val=""/>
+                </dev>
+                <float val="false"/>
+            </dev>
+            <anim>
+                <enabled val="false"/>
+                <key val="fadeIn"/>
+                <duration val="1000"/>
+                <values type="List[AnimValueProperty]"/>
+            </anim>
+            <resp>
+                <objects type="Map[ScreenResponsive]=DataResponsiveImage">
+                    <ITEM>
+                        <KEY>
+                            <index val="1024"/>
+                        </KEY>
+                        <VAL>
+                            <key>
+                                <index val="1024"/>
+                            </key>
+                            <visible val="true"/>
+                            <geo>
+                                <pos val="[240.20982360833682,242.29017829865373]"/>
+                                <size val="[440,445]"/>
+                                <rot val="0"/>
+                            </geo>
+                            <text_wrap>
+                                <margin val="5"/>
+                            </text_wrap>
+                            <float_properties>
+                                <enabled val="false"/>
+                                <lock_point val="1"/>
+                            </float_properties>
+                            <main_img_usages>
+                                <type_img_usage val="0"/>
+                                <src val="{012560df-086f-4410-825f-6dbc816c5d5f}"/>
+                                <size val="[440,293]"/>
+                            </main_img_usages>
+                            <over_img_usages>
+                                <type_img_usage val="0"/>
+                                <src val=""/>
+                                <size val="[-1,-1]"/>
+                            </over_img_usages>
+                        </VAL>
+                    </ITEM>
+                </objects>
+            </resp>
+            <mlng>
+                <objects type="Map[QString]=DataMultiLingualImage">
+                    <ITEM>
+                        <KEY val="fr"/>
+                        <VAL>
+                            <key val="fr"/>
+                            <vis_lng val="true"/>
+                            <title val=""/>
+                        </VAL>
+                    </ITEM>
+                </objects>
+            </mlng>
+            <img>
+                <uuid_update val=""/>
+                <uuid_res val="{012560df-086f-4410-825f-6dbc816c5d5f}"/>
+                <display>
+                    <lck_point val="4"/>
+                    <type_dsp val="1"/>
+                    <repeat_contain val="true"/>
+                </display>
+            </img>
+            <over_img>
+                <enabled val="false"/>
+                <img>
+                    <uuid_update val=""/>
+                    <uuid_res val=""/>
+                    <display>
+                        <lck_point val="4"/>
+                        <type_dsp val="1"/>
+                        <repeat_contain val="true"/>
+                    </display>
+                </img>
+            </over_img>
+            <opacity>
+                <enable val="true"/>
+                <val val="68"/>
+            </opacity>
+            <blur>
+                <enabled val="false"/>
+                <val val="4"/>
+            </blur>
+            <shadow>
+                <enable val="false"/>
+                <ang val="45"/>
+                <offset val="4"/>
+                <strength val="8"/>
+                <col>
+                    <col val="#000000"/>
+                </col>
+            </shadow>
+            <border>
+                <enable val="false"/>
+                <width val="[1]"/>
+                <cols type="List[WColorRGBA]"/>
+            </border>
+            <radius>
+                <enable val="true"/>
+                <radius val="[5]"/>
+            </radius>
+            <filters>
+                <enable val="false"/>
+                <filters type="List[FilterGraphicsItem]"/>
+            </filters>
+            <link>
+                <ptr type="SmartList[EntityLinkBase*]"/>
+                <js>
+                    <script val=""/>
+                </js>
+                <type val="1"/>
+                <animate_click val="false"/>
+            </link>
+            <lightbox>
+                <enabled val="false"/>
+            </lightbox>
+            <usage_lightbox>
+                <type_img_usage val="0"/>
+                <src val=""/>
+                <size val="[-1,-1]"/>
+            </usage_lightbox>
+        </ITEM>
+    </item_objects>
+    <edit_page_infos>
+        <label val="Accueil"/>
+        <list_index val="-1"/>
+        <color_code val="#000000"/>
+    </edit_page_infos>
+    <creation val="2019-10-19T22:16:51"/>
+    <modification val="2019-10-19T22:25:23"/>
+    <page_properties>
+        <html_head>
+            <enabled val="true"/>
+            <code_html val=""/>
+            <files type="List[WebFileSource]"/>
+        </html_head>
+        <html_body_end>
+            <enabled val="true"/>
+            <code_html val=""/>
+            <files type="List[WebFileSource]"/>
+        </html_body_end>
+        <custom_page_name val=""/>
+        <template_uuids val=""/>
+        <page_extension val="0"/>
+        <seo_ignore_by_search_engine val="false"/>
+        <seo_no_follow_links val="false"/>
+        <under_construction val="false"/>
+        <restricted_access>
+            <enabled val="false"/>
+            <entries val=""/>
+        </restricted_access>
+        <color_bg>
+            <col val="#ffffff"/>
+        </color_bg>
+        <img_bg>
+            <uuid_update val=""/>
+            <uuid_res val=""/>
+            <display>
+                <lck_point val="4"/>
+                <type_dsp val="1"/>
+                <repeat_contain val="true"/>
+            </display>
+        </img_bg>
+        <img_bg_usage>
+            <type_img_usage val="0"/>
+            <src val=""/>
+            <size val="[-1,-1]"/>
+        </img_bg_usage>
+        <repeat_bg_horz val="true"/>
+        <repeat_bg_vert val="true"/>
+        <mlng>
+            <objects type="Map[QString]=DataMultiLingualPage"/>
+        </mlng>
+    </page_properties>
+</PageData>

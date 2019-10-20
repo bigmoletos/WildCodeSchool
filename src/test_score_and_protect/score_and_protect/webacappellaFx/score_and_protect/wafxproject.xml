@@ -1,0 +1,709 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ProjectData>
+    <fonts>
+        <google_fonts type="List[EditorTextFont]"/>
+    </fonts>
+    <styles>
+        <styles type="List[FormatBlocStyle]">
+            <ITEM id="{933c74a9-ac5c-4dc0-abfa-ff29c2981058}">
+                <label val="Corps"/>
+                <default val="true"/>
+                <block_format>
+                    <type_paragraph val="0"/>
+                    <align val="0"/>
+                </block_format>
+                <text_format>
+                    <props_by_screens type="Map[ScreenResponsive]=FormatTextProperties">
+                        <ITEM>
+                            <KEY>
+                                <index val="320"/>
+                            </KEY>
+                            <VAL>
+                                <values type="Map[int]=QString">
+                                    <ITEM>
+                                        <KEY val="4"/>
+                                        <VAL val="Arial"/>
+                                    </ITEM>
+                                    <ITEM>
+                                        <KEY val="5"/>
+                                        <VAL val="14"/>
+                                    </ITEM>
+                                    <ITEM>
+                                        <KEY val="6"/>
+                                        <VAL val="#000000"/>
+                                    </ITEM>
+                                </values>
+                            </VAL>
+                        </ITEM>
+                        <ITEM>
+                            <KEY>
+                                <index val="375"/>
+                            </KEY>
+                            <VAL>
+                                <values type="Map[int]=QString">
+                                    <ITEM>
+                                        <KEY val="4"/>
+                                        <VAL val="Arial"/>
+                                    </ITEM>
+                                    <ITEM>
+                                        <KEY val="5"/>
+                                        <VAL val="14"/>
+                                    </ITEM>
+                                    <ITEM>
+                                        <KEY val="6"/>
+                                        <VAL val="#000000"/>
+                                    </ITEM>
+                                </values>
+                            </VAL>
+                        </ITEM>
+                        <ITEM>
+                            <KEY>
+                                <index val="425"/>
+                            </KEY>
+                            <VAL>
+                                <values type="Map[int]=QString">
+                                    <ITEM>
+                                        <KEY val="4"/>
+                                        <VAL val="Arial"/>
+                                    </ITEM>
+                                    <ITEM>
+                                        <KEY val="5"/>
+                                        <VAL val="14"/>
+                                    </ITEM>
+                                    <ITEM>
+                                        <KEY val="6"/>
+                                        <VAL val="#000000"/>
+                                    </ITEM>
+                                </values>
+                            </VAL>
+                        </ITEM>
+                        <ITEM>
+                            <KEY>
+                                <index val="768"/>
+                            </KEY>
+                            <VAL>
+                                <values type="Map[int]=QString">
+                                    <ITEM>
+                                        <KEY val="4"/>
+                                        <VAL val="Arial"/>
+                                    </ITEM>
+                                    <ITEM>
+                                        <KEY val="5"/>
+                                        <VAL val="14"/>
+                                    </ITEM>
+                                    <ITEM>
+                                        <KEY val="6"/>
+                                        <VAL val="#000000"/>
+                                    </ITEM>
+                                </values>
+                            </VAL>
+                        </ITEM>
+                        <ITEM>
+                            <KEY>
+                                <index val="960"/>
+                            </KEY>
+                            <VAL>
+                                <values type="Map[int]=QString">
+                                    <ITEM>
+                                        <KEY val="4"/>
+                                        <VAL val="Arial"/>
+                                    </ITEM>
+                                    <ITEM>
+                                        <KEY val="5"/>
+                                        <VAL val="14"/>
+                                    </ITEM>
+                                    <ITEM>
+                                        <KEY val="6"/>
+                                        <VAL val="#000000"/>
+                                    </ITEM>
+                                </values>
+                            </VAL>
+                        </ITEM>
+                        <ITEM>
+                            <KEY>
+                                <index val="1024"/>
+                            </KEY>
+                            <VAL>
+                                <values type="Map[int]=QString">
+                                    <ITEM>
+                                        <KEY val="4"/>
+                                        <VAL val="Arial"/>
+                                    </ITEM>
+                                    <ITEM>
+                                        <KEY val="5"/>
+                                        <VAL val="14"/>
+                                    </ITEM>
+                                    <ITEM>
+                                        <KEY val="6"/>
+                                        <VAL val="#000000"/>
+                                    </ITEM>
+                                </values>
+                            </VAL>
+                        </ITEM>
+                        <ITEM>
+                            <KEY>
+                                <index val="1152"/>
+                            </KEY>
+                            <VAL>
+                                <values type="Map[int]=QString">
+                                    <ITEM>
+                                        <KEY val="4"/>
+                                        <VAL val="Arial"/>
+                                    </ITEM>
+                                    <ITEM>
+                                        <KEY val="5"/>
+                                        <VAL val="14"/>
+                                    </ITEM>
+                                    <ITEM>
+                                        <KEY val="6"/>
+                                        <VAL val="#000000"/>
+                                    </ITEM>
+                                </values>
+                            </VAL>
+                        </ITEM>
+                        <ITEM>
+                            <KEY>
+                                <index val="1440"/>
+                            </KEY>
+                            <VAL>
+                                <values type="Map[int]=QString">
+                                    <ITEM>
+                                        <KEY val="4"/>
+                                        <VAL val="Arial"/>
+                                    </ITEM>
+                                    <ITEM>
+                                        <KEY val="5"/>
+                                        <VAL val="14"/>
+                                    </ITEM>
+                                    <ITEM>
+                                        <KEY val="6"/>
+                                        <VAL val="#000000"/>
+                                    </ITEM>
+                                </values>
+                            </VAL>
+                        </ITEM>
+                        <ITEM>
+                            <KEY>
+                                <index val="1680"/>
+                            </KEY>
+                            <VAL>
+                                <values type="Map[int]=QString">
+                                    <ITEM>
+                                        <KEY val="4"/>
+                                        <VAL val="Arial"/>
+                                    </ITEM>
+                                    <ITEM>
+                                        <KEY val="5"/>
+                                        <VAL val="14"/>
+                                    </ITEM>
+                                    <ITEM>
+                                        <KEY val="6"/>
+                                        <VAL val="#000000"/>
+                                    </ITEM>
+                                </values>
+                            </VAL>
+                        </ITEM>
+                        <ITEM>
+                            <KEY>
+                                <index val="1920"/>
+                            </KEY>
+                            <VAL>
+                                <values type="Map[int]=QString">
+                                    <ITEM>
+                                        <KEY val="4"/>
+                                        <VAL val="Arial"/>
+                                    </ITEM>
+                                    <ITEM>
+                                        <KEY val="5"/>
+                                        <VAL val="14"/>
+                                    </ITEM>
+                                    <ITEM>
+                                        <KEY val="6"/>
+                                        <VAL val="#000000"/>
+                                    </ITEM>
+                                </values>
+                            </VAL>
+                        </ITEM>
+                        <ITEM>
+                            <KEY>
+                                <index val="2560"/>
+                            </KEY>
+                            <VAL>
+                                <values type="Map[int]=QString">
+                                    <ITEM>
+                                        <KEY val="4"/>
+                                        <VAL val="Arial"/>
+                                    </ITEM>
+                                    <ITEM>
+                                        <KEY val="5"/>
+                                        <VAL val="14"/>
+                                    </ITEM>
+                                    <ITEM>
+                                        <KEY val="6"/>
+                                        <VAL val="#000000"/>
+                                    </ITEM>
+                                </values>
+                            </VAL>
+                        </ITEM>
+                    </props_by_screens>
+                </text_format>
+                <lnk_format>
+                    <values type="Map[int]=QString">
+                        <ITEM>
+                            <KEY val="6"/>
+                            <VAL val="#3959a2"/>
+                        </ITEM>
+                    </values>
+                </lnk_format>
+            </ITEM>
+            <ITEM id="{1f4856ee-656d-4217-8000-459406a5d567}">
+                <label val="Title 1"/>
+                <default val="false"/>
+                <block_format>
+                    <type_paragraph val="0"/>
+                    <align val="0"/>
+                </block_format>
+                <text_format>
+                    <props_by_screens type="Map[ScreenResponsive]=FormatTextProperties">
+                        <ITEM>
+                            <KEY>
+                                <index val="320"/>
+                            </KEY>
+                            <VAL>
+                                <values type="Map[int]=QString">
+                                    <ITEM>
+                                        <KEY val="4"/>
+                                        <VAL val="Impact"/>
+                                    </ITEM>
+                                    <ITEM>
+                                        <KEY val="5"/>
+                                        <VAL val="20"/>
+                                    </ITEM>
+                                    <ITEM>
+                                        <KEY val="6"/>
+                                        <VAL val=""/>
+                                    </ITEM>
+                                </values>
+                            </VAL>
+                        </ITEM>
+                        <ITEM>
+                            <KEY>
+                                <index val="375"/>
+                            </KEY>
+                            <VAL>
+                                <values type="Map[int]=QString">
+                                    <ITEM>
+                                        <KEY val="4"/>
+                                        <VAL val="Impact"/>
+                                    </ITEM>
+                                    <ITEM>
+                                        <KEY val="5"/>
+                                        <VAL val="20"/>
+                                    </ITEM>
+                                    <ITEM>
+                                        <KEY val="6"/>
+                                        <VAL val=""/>
+                                    </ITEM>
+                                </values>
+                            </VAL>
+                        </ITEM>
+                        <ITEM>
+                            <KEY>
+                                <index val="425"/>
+                            </KEY>
+                            <VAL>
+                                <values type="Map[int]=QString">
+                                    <ITEM>
+                                        <KEY val="4"/>
+                                        <VAL val="Impact"/>
+                                    </ITEM>
+                                    <ITEM>
+                                        <KEY val="5"/>
+                                        <VAL val="20"/>
+                                    </ITEM>
+                                    <ITEM>
+                                        <KEY val="6"/>
+                                        <VAL val=""/>
+                                    </ITEM>
+                                </values>
+                            </VAL>
+                        </ITEM>
+                        <ITEM>
+                            <KEY>
+                                <index val="768"/>
+                            </KEY>
+                            <VAL>
+                                <values type="Map[int]=QString">
+                                    <ITEM>
+                                        <KEY val="4"/>
+                                        <VAL val="Impact"/>
+                                    </ITEM>
+                                    <ITEM>
+                                        <KEY val="5"/>
+                                        <VAL val="20"/>
+                                    </ITEM>
+                                    <ITEM>
+                                        <KEY val="6"/>
+                                        <VAL val=""/>
+                                    </ITEM>
+                                </values>
+                            </VAL>
+                        </ITEM>
+                        <ITEM>
+                            <KEY>
+                                <index val="960"/>
+                            </KEY>
+                            <VAL>
+                                <values type="Map[int]=QString">
+                                    <ITEM>
+                                        <KEY val="4"/>
+                                        <VAL val="Impact"/>
+                                    </ITEM>
+                                    <ITEM>
+                                        <KEY val="5"/>
+                                        <VAL val="20"/>
+                                    </ITEM>
+                                    <ITEM>
+                                        <KEY val="6"/>
+                                        <VAL val=""/>
+                                    </ITEM>
+                                </values>
+                            </VAL>
+                        </ITEM>
+                        <ITEM>
+                            <KEY>
+                                <index val="1024"/>
+                            </KEY>
+                            <VAL>
+                                <values type="Map[int]=QString">
+                                    <ITEM>
+                                        <KEY val="4"/>
+                                        <VAL val="Impact"/>
+                                    </ITEM>
+                                    <ITEM>
+                                        <KEY val="5"/>
+                                        <VAL val="20"/>
+                                    </ITEM>
+                                    <ITEM>
+                                        <KEY val="6"/>
+                                        <VAL val=""/>
+                                    </ITEM>
+                                </values>
+                            </VAL>
+                        </ITEM>
+                        <ITEM>
+                            <KEY>
+                                <index val="1152"/>
+                            </KEY>
+                            <VAL>
+                                <values type="Map[int]=QString">
+                                    <ITEM>
+                                        <KEY val="4"/>
+                                        <VAL val="Impact"/>
+                                    </ITEM>
+                                    <ITEM>
+                                        <KEY val="5"/>
+                                        <VAL val="20"/>
+                                    </ITEM>
+                                    <ITEM>
+                                        <KEY val="6"/>
+                                        <VAL val=""/>
+                                    </ITEM>
+                                </values>
+                            </VAL>
+                        </ITEM>
+                        <ITEM>
+                            <KEY>
+                                <index val="1440"/>
+                            </KEY>
+                            <VAL>
+                                <values type="Map[int]=QString">
+                                    <ITEM>
+                                        <KEY val="4"/>
+                                        <VAL val="Impact"/>
+                                    </ITEM>
+                                    <ITEM>
+                                        <KEY val="5"/>
+                                        <VAL val="20"/>
+                                    </ITEM>
+                                    <ITEM>
+                                        <KEY val="6"/>
+                                        <VAL val=""/>
+                                    </ITEM>
+                                </values>
+                            </VAL>
+                        </ITEM>
+                        <ITEM>
+                            <KEY>
+                                <index val="1680"/>
+                            </KEY>
+                            <VAL>
+                                <values type="Map[int]=QString">
+                                    <ITEM>
+                                        <KEY val="4"/>
+                                        <VAL val="Impact"/>
+                                    </ITEM>
+                                    <ITEM>
+                                        <KEY val="5"/>
+                                        <VAL val="20"/>
+                                    </ITEM>
+                                    <ITEM>
+                                        <KEY val="6"/>
+                                        <VAL val=""/>
+                                    </ITEM>
+                                </values>
+                            </VAL>
+                        </ITEM>
+                        <ITEM>
+                            <KEY>
+                                <index val="1920"/>
+                            </KEY>
+                            <VAL>
+                                <values type="Map[int]=QString">
+                                    <ITEM>
+                                        <KEY val="4"/>
+                                        <VAL val="Impact"/>
+                                    </ITEM>
+                                    <ITEM>
+                                        <KEY val="5"/>
+                                        <VAL val="20"/>
+                                    </ITEM>
+                                    <ITEM>
+                                        <KEY val="6"/>
+                                        <VAL val=""/>
+                                    </ITEM>
+                                </values>
+                            </VAL>
+                        </ITEM>
+                        <ITEM>
+                            <KEY>
+                                <index val="2560"/>
+                            </KEY>
+                            <VAL>
+                                <values type="Map[int]=QString">
+                                    <ITEM>
+                                        <KEY val="4"/>
+                                        <VAL val="Impact"/>
+                                    </ITEM>
+                                    <ITEM>
+                                        <KEY val="5"/>
+                                        <VAL val="20"/>
+                                    </ITEM>
+                                    <ITEM>
+                                        <KEY val="6"/>
+                                        <VAL val=""/>
+                                    </ITEM>
+                                </values>
+                            </VAL>
+                        </ITEM>
+                    </props_by_screens>
+                </text_format>
+                <lnk_format>
+                    <values type="Map[int]=QString">
+                        <ITEM>
+                            <KEY val="6"/>
+                            <VAL val="#646464"/>
+                        </ITEM>
+                    </values>
+                </lnk_format>
+            </ITEM>
+        </styles>
+    </styles>
+    <lng_settings>
+        <entries type="List[ProjectLangSettingsEntry]">
+            <ITEM>
+                <code val="fr"/>
+                <lng_messages val=""/>
+            </ITEM>
+            <ITEM>
+                <code val="en"/>
+                <lng_messages val=""/>
+            </ITEM>
+        </entries>
+        <multilang_enabled val="false"/>
+        <type_multilang_folders val="0"/>
+    </lng_settings>
+    <resp_screen_settings>
+        <mix_screens_settings>
+            <formats val="[lg]"/>
+            <custom_screens val=""/>
+        </mix_screens_settings>
+        <virtual_screens type="List[VirtualScreenSettings]"/>
+    </resp_screen_settings>
+    <homepage val="{03a093e8-c32d-418b-b0b1-45f892b13e1d}"/>
+    <master val="{844ea2c8-0442-4d88-abf5-6fad12ea316f}"/>
+    <generation_settings/>
+    <publication_settings>
+        <type_publication val="0"/>
+        <local_settings>
+            <local_folder val=""/>
+        </local_settings>
+        <server_settings>
+            <name val=""/>
+            <ftp>
+                <protocol val="1"/>
+                <host val=""/>
+                <port val="-1"/>
+                <psv val="true"/>
+                <user val=""/>
+                <pwd>
+                    <crypted val="true"/>
+                    <val val="9138322c6ff2973050a2f60f2512ff18"/>
+                </pwd>
+                <public_url val=""/>
+                <public_sub_folder val=""/>
+                <ftp_folder val=""/>
+            </ftp>
+            <sql>
+                <host val=""/>
+                <port val="-1"/>
+                <database val=""/>
+                <user val=""/>
+                <pwd>
+                    <crypted val="true"/>
+                    <val val="9138322c6ff2973050a2f60f2512ff18"/>
+                </pwd>
+            </sql>
+            <test_validation_date type="Map[int]=QDateTime"/>
+            <email_php_settings>
+                <initialized_by_user val="false"/>
+                <email_variables type="List[VariableEmailPhpSettings]"/>
+                <additionnnal_mail_header val=""/>
+                <disable_php_mail_warning val="false"/>
+            </email_php_settings>
+        </server_settings>
+        <options>
+            <publish_no_unicode val="false"/>
+        </options>
+    </publication_settings>
+    <html_head>
+        <enabled val="true"/>
+        <code_html val=""/>
+        <files type="List[WebFileSource]"/>
+    </html_head>
+    <html_body_end>
+        <enabled val="true"/>
+        <code_html val=""/>
+        <files type="List[WebFileSource]"/>
+    </html_body_end>
+    <cookie_banner>
+        <enabled val="false"/>
+        <position val="0"/>
+        <layout val="0"/>
+        <custom_link_enabled val="false"/>
+        <link>
+            <ptr type="SmartList[EntityLinkBase*]"/>
+            <js>
+                <script val=""/>
+            </js>
+            <type val="1"/>
+            <animate_click val="false"/>
+        </link>
+        <color_banner val="#000000"/>
+        <color_banner_text val="#ffffff"/>
+        <color_button val="#f1d600"/>
+        <color_button_text val="#000000"/>
+    </cookie_banner>
+    <favicon>
+        <favicon>
+            <uuid_update val=""/>
+            <uuid_res val=""/>
+            <display>
+                <lck_point val="4"/>
+                <type_dsp val="1"/>
+                <repeat_contain val="true"/>
+            </display>
+        </favicon>
+        <favicon_usage>
+            <type_img_usage val="0"/>
+            <src val=""/>
+            <size val="[-1,-1]"/>
+        </favicon_usage>
+    </favicon>
+    <cookie_banner>
+        <enabled val="false"/>
+        <position val="0"/>
+        <layout val="0"/>
+        <custom_link_enabled val="false"/>
+        <link>
+            <ptr type="SmartList[EntityLinkBase*]"/>
+            <js>
+                <script val=""/>
+            </js>
+            <type val="1"/>
+            <animate_click val="false"/>
+        </link>
+        <color_banner val="#000000"/>
+        <color_banner_text val="#ffffff"/>
+        <color_button val="#f1d600"/>
+        <color_button_text val="#000000"/>
+    </cookie_banner>
+    <third_party_api_settings>
+        <google_analytics_code val=""/>
+    </third_party_api_settings>
+    <mail_settings>
+        <default_form_field_from val=""/>
+        <default_form_field_to val=""/>
+        <default_form_field_mail_subject val=""/>
+        <email_settings>
+            <smtp>
+                <enabled val="false"/>
+                <host val=""/>
+                <b_auth val="false"/>
+                <auth_usename val=""/>
+                <auth_pwd>
+                    <crypted val="true"/>
+                    <val val="9138322c6ff2973050a2f60f2512ff18"/>
+                </auth_pwd>
+                <smtp_secure val="2"/>
+                <port val="-1"/>
+            </smtp>
+            <vars type="List[VariableEmailPhpSettings]"/>
+        </email_settings>
+    </mail_settings>
+    <debug>
+        <enabled val="false"/>
+    </debug>
+    <virtual_folders>
+        <folder_id val="{3bbbff33-2603-4e34-bded-5f971d750e5e}"/>
+        <label val=""/>
+        <pages val=""/>
+        <folders type="List[VirtualFolderItem]"/>
+    </virtual_folders>
+    <multilang_page_index>
+        <uuid_update val=""/>
+        <uuid_res val=""/>
+    </multilang_page_index>
+    <control_working_folders>
+        <images val="D:/programmation/score_and_potect/score_and_protect/S_P - Boite à outils climatique/dossier Sketch/images"/>
+        <files val=""/>
+    </control_working_folders>
+    <htaccess>
+        <content>
+            <enabled val="false"/>
+            <code_html val=""/>
+            <files type="List[WebFileSource]"/>
+        </content>
+    </htaccess>
+    <htaccess_sync_instance>
+        <uuid_update val=""/>
+        <uuid_res val=""/>
+    </htaccess_sync_instance>
+    <restricted_access>
+        <accounts type="List[RestrictedAccount]"/>
+    </restricted_access>
+    <page_common_php_sync_instance>
+        <uuid_update val=""/>
+        <uuid_res val=""/>
+    </page_common_php_sync_instance>
+    <sitemap_props>
+        <enabled val="false"/>
+    </sitemap_props>
+    <sitemap_sync_instance>
+        <uuid_update val="4f5f622e_5342_4027_85bd_8357689b5653"/>
+        <uuid_res val=""/>
+    </sitemap_sync_instance>
+    <pageview_settings>
+        <type_page_sorting val="0"/>
+    </pageview_settings>
+</ProjectData>

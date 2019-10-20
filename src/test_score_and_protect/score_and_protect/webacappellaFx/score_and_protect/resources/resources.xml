@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ReferentielProjectResources>
+    <files type="Map[QString]=RefResourceFileEntry">
+        <ITEM>
+            <KEY val="{012560df-086f-4410-825f-6dbc816c5d5f}"/>
+            <VAL id="{012560df-086f-4410-825f-6dbc816c5d5f}">
+                <type val="1"/>
+                <last_loc_fp val="D:/programmation/score_and_potect/score_and_protect/S_P - Boite à outils climatique/dossier Sketch/images/4ac8be4b1dcb4af08eafbabb5b999f6f69d4c187.png"/>
+                <signature>
+                    <sha1 val="42183s5f4i7i546q440p7e5n5h1g2i1q796c6m7n"/>
+                </signature>
+                <pub_name val="4ac8be4b1dcb4af08eafbabb5b999f6f69d4c187.png"/>
+                <uuid_update val=""/>
+            </VAL>
+        </ITEM>
+    </files>
+</ReferentielProjectResources>
