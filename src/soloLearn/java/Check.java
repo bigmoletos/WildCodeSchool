@@ -8,7 +8,7 @@ package soloLearn.java;
  * @author franck Desmedt
  *
  */
-public class A {
+public class Check {
 	private void print() {
 		System.out.println("a");
 	}
@@ -22,7 +22,7 @@ public class A {
 	}
 
 	public static void main(String[] args) {
-		A object = new A();
+		Check object = new Check();
 		object.print(12);
 	}
 }
