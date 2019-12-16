@@ -25,7 +25,10 @@ public class FilesMethodTest {
 	 *
 	 **/
 	public static void main(String[] args) {
+//		chemin sous windows
 //		D:\programmation\WildCodeSchool\WildCodeSchool\src\soloLearn\java\fichierTest.txt
+//		chemin sous linux
+//		"/home/franck/programmation/workspaceEclipse/wcs_projetJava1_dicoutils/wcs_nfs_dicoutils/
 		File x = new File("D:\\programmation\\WildCodeSchool\\WildCodeSchool\\src\\soloLearn\\java\\fichierTest.txt");
 //		File x = new File("D:\\programmation\\WildCodeSchool\\WildCodeSchool\\src\\soloLearn\\java\\fichierTest.txt");
 		if (x.exists()) {
