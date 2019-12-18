@@ -511,7 +511,7 @@ public class TestAlgo {
 		int result2 = Integer.parseInt(n2, 2);
 		result = result1 - result2;
 //n1= Integer.parseInt(binaryIntegerString, 2);
-		result = Integer.toString(result, 2);
+		String resultSoustract = Integer.toString(result, 2);
 
 		System.out.println("binary digits");
 		System.out.println(result);
