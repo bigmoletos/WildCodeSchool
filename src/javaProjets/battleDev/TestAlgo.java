@@ -4,6 +4,7 @@
  */
 package javaProjets.battleDev;
 
+import java.util.Arrays;
 import java.util.Scanner;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -19,6 +20,7 @@ public class TestAlgo {
 		System.out.println("hello");
 	}
 
+//#############################################################################
 	public void conjectureCollatzSyracuse() {
 //		La conjecture de Syracuse (ou Collatz)  utilise l'algorithme suivant : Si n est pair, le diviser par 2, sinon multiplier par 3 et ajouter 1. Recommencer jusque obtenir 1.
 //
@@ -53,6 +55,7 @@ public class TestAlgo {
 
 	}
 
+//#############################################################################
 	public void lettreIdentiqueDansunMot() {
 
 		int nombre = 0;
@@ -107,6 +110,7 @@ public class TestAlgo {
 		in.close();
 
 	}
+//#############################################################################
 
 	public void matchRegex(String word) {
 		// String word2 = "aaERFGTeeTRFAGs";
@@ -154,6 +158,7 @@ public class TestAlgo {
 //	echo $r;
 //	?>
 
+//#############################################################################
 	public void adresseIPV4Convert() {
 		String ipv4 = "192.168.0.0";
 		System.out.println("adresse " + ipv4);
@@ -220,6 +225,7 @@ public class TestAlgo {
 	public void reverseCodeAdresseIp() {
 
 	}
+//#############################################################################
 
 // 	Objectif
 //In a town there are X men, each man has X wives and each wife has X kids, you should print the total T number of people in this town.
@@ -242,6 +248,7 @@ public class TestAlgo {
 		int result = x + (x * x) + (x * x * x);
 		System.out.println(result);
 	}
+//#############################################################################
 
 	public void biggestHighlyCompositeNumber() {
 		Scanner in = new Scanner(System.in);
@@ -307,6 +314,7 @@ public class TestAlgo {
 		}
 		System.out.println(highlyCompositeNumber + " " + divisor);
 	}
+//#############################################################################
 
 //	Le mode de jeu est REVERSE : Vous n'avez pas accès à l'énoncé. Vous devez trouver quoi faire en observant les jeux de tests suivants :
 //		01 Test 1
@@ -402,7 +410,73 @@ public class TestAlgo {
 			}
 		}
 	}
+//#############################################################################
 
+//	L’anagramme d’un mot est un mot écrit avec exactement les mêmes lettres, mais pas 
+//	nécessairement dans le même ordre.Votre programme doit indiquer si deux mots donnés 
+//	sont des anagrammes de l'un l'autre. Vous devez écrire 1 sur la
+//	sortie standard si ce sont des anagrammes, 0 sinon.
+//	Entrée
+//	Ligne 1 : Deux mots (S1 et S2), séparés par un espace.
+//	Sortie
+//	1 si S1 et S2 sont des anagrammes, 0 sinon.
+//	Contraintes
+//	S1 et S2 contiennent au moins 1 caractère.
+//	S1 et S2 contiennent moins de 1024 caractères.
+//	S1 et S2 contiennent uniquement des lettres minuscules.
+//	Exemple
+//	Entrée
+//	creative reactive
+//	Sortie
+//	1
+//	Sortie console	
+
+//	solution python
+//	# Auto-generated code below aims at helping you parse
+//	# the standard input according to the problem statement.
+//
+//	s1, s2 = input().split()
+//
+//	# Write an action using print
+//	print(1 if sorted(s1) == sorted(s2) else 0)
+//	autre solution 
+//	s1, s2 = input().split()
+//	print((0,1)[sorted(s1)==sorted(s2)])
+
+	public void anagramme() {
+		Scanner in = new Scanner(System.in);
+		String a = in.next();
+		String b = in.next();
+
+		// Write an action using System.out.println()
+		// To debug: System.err.println("Debug messages...");
+		int result = 0;
+
+		if (a.length() != b.length() || a == null || b == null) {
+			result = 0;
+		}
+
+		a = a.toLowerCase();
+		b = b.toLowerCase();
+//tableau des characteres à partir d'un string
+		char[] c1 = a.toCharArray();
+		char[] c2 = b.toCharArray();
+//trie des tableau de caracteres par ordre croissant
+		Arrays.sort(c1);
+		Arrays.sort(c2);
+//transformation des des tableaux de caracteres en String
+		String sc1 = new String(c1);
+		String sc2 = new String(c2);
+
+		if (sc1.equals(sc2)) {
+			result = 1;
+		}
+
+		System.out.println(result);
+
+	}
+
+//#############################################################################
 // 	Objectif
 //A message is encoded in a square N by N grid. The first character of the message is 
 //	in the top-left corner of the grid and the remaining characters are placed 
@@ -436,6 +510,7 @@ public class TestAlgo {
 		// To debug: System.err.println("Debug messages...");
 		String result = "";
 		char lettre = '\u0000';
+		// concatenation avec StringBuilder
 		StringBuilder concat = new StringBuilder();
 		if (in.hasNextLine()) {
 			in.nextLine();
@@ -459,6 +534,7 @@ public class TestAlgo {
 		in.close();
 		System.out.println(result);
 	}
+//#############################################################################
 
 //	********************
 //	 Test 1
@@ -507,6 +583,7 @@ public class TestAlgo {
 		// To debug: System.err.println("Debug messages...");
 		int result = 0;
 //        n1=binaryIntegerStrin
+
 		int result1 = Integer.parseInt(n1, 2);
 		int result2 = Integer.parseInt(n2, 2);
 		result = result1 - result2;
@@ -517,6 +594,184 @@ public class TestAlgo {
 		System.out.println(result);
 	}
 
+//#############################################################################
+//	donne une note sur 100
+//	ligne1 nombre de note
+//	lignes suivante reponses possibles A, B, C, D, E
+//	X pour ok 
+//	ex
+//	n=5
+//	ABCDE
+//	X0000
+//	0X000
+//	00X00
+//	0000X
+//	000X0
+//	
+//	Renvoie 100
+//	car resultat est 100/100
+
+//	solution python
+//	n=int(input())
+//	c=input()
+//	c=[sorted(set(c)).index(x) for x in c]
+//	C=0
+//	for i in range(n):
+//	 l=input()
+//	 if l.count("X")==1:C+=[0,1][c[i]==l.index("X")]
+//	print(100*C//n)
+
+//	solution javascript
+//
+//var n=Number(readline())
+//var k=readline()
+//var r=0
+//var x=[...Array(n).keys()].map(_=>readline()).filter((a,i)=>a["ABCDE".indexOf(k[i])]=='X'&&a.split('').filter(c=>c=='X').length<2).length*100/n
+//
+//
+//print(x)
+
+	public void noteStudents() {
+		Scanner in = new Scanner(System.in);
+		int n = in.nextInt();
+		if (in.hasNextLine()) {
+			in.nextLine();
+		}
+		String k = in.nextLine();
+		for (int i = 0; i < n; i++) {
+			String a = in.nextLine();
+		}
+
+		// Write an action using System.out.println()
+		// To debug: System.err.println("Debug messages...");
+		int result = 0;
+
+		System.out.println(result);
+	}
+
+//#############################################################################
+//	divise par 2 et rajoute 0.5 multiplie le tout par le chiffre saisie
+//	m=m*(m/2+0.5)
+//	reverse mode
+//	1->1
+//	2->1.5
+//	3->2
+//	4->2.5
+//	5->3
+//	6->3.5
+//	7->4
+//	8->4.5
+//	9->5
+//	10->5.5
+//	11->6
+
+//	solution en  python
+//	n = int(input())
+//
+//	# Write an action using print
+//	# To debug: print("Debug messages...", file=sys.stderr)
+//	if n%2:
+//	    print(n*(-(-n//2)))
+//	else:
+//	    print(n*(n//2)+n//2)
+
+//	    autre solution python
+//	    n = int(input())
+//	    a=(n+1)*n//2
+//
+//	    # Write an action using print
+//	    # To debug: print("Debug messages...", file=sys.stderr)
+//
+//	    print(a)
+//	    
+
+//	    autre solution python
+//	    sum = 0
+//	    for i in range(n+1):
+//	        sum+=i
+//	    print(sum)
+
+	public void diviseTwoPlusZeroCinq() {
+
+		Scanner in = new Scanner(System.in);
+//		int N = in.nextInt();
+		// Write an action using System.out.println()
+		// To debug: System.err.println("Debug messages...");
+		int n = in.nextInt();
+		if (in.hasNextLine()) {
+			in.nextLine();
+		}
+		
+		// Write an action using System.out.println()
+		// To debug: System.err.println("Debug messages...");
+//		parse int en double
+		double m = n;
+
+		int result = 0;
+		result = (int) (m * (m / 2 + 0.5));
+		System.out.println(result);
+	}
+//#############################################################################
+	public void detailMultiplication() {
+
+//		entrée
+//54321
+//9876	
+		
+//		sortie
+
+//	    54321
+//	    x 9876
+//	 ---------
+//	    325926
+//	   3802470
+//	  43456800
+//	 488889000
+//	 ---------
+//	 536474196
+		Scanner in = new Scanner(System.in);
+		int oper1 = in.nextInt();
+		int oper2 = in.nextInt();
+		int result = 0;
+		// nombre de chiffre d'un entier
+		int nblines = String.valueOf(oper2).length();
+		int nbTirets = String.valueOf(oper1).length();
+		System.out.println(oper1);
+		for (int i = 0; i < nblines; i++) {
+			System.out.println("x " + oper2);
+			for (int j = 0; j < nbTirets; j++) {
+				System.out.print("-");
+			}
+			System.out.println("");
+//transforme un int en string pour avoir la valeur à l'index donné du int
+			// permet d'extraire un chiffre d'un entier
+//			int aa = String.valueOf(oper2).indexOf(nbTirets - i);
+			int cc = nbTirets - i - 1;
+			System.out.println("i " + i + " cc " + cc);
+			int aa = String.valueOf(oper2).indexOf(cc);
+			int bb = String.valueOf(oper2).charAt(1);
+			System.out.println("aa " + aa + " oper2 " + oper2);
+			System.out.println("bb " + bb + " oper2 " + String.valueOf(oper2).substring(0, i));
+			System.out.println("tirets " + nbTirets);
+
+			System.out.println(oper1 * aa);
+			
+
+			// Write an action using System.out.println()
+			// To debug: System.err.println("Debug messages...");
+
+			for (int j = 0; j < nbTirets; j++) {
+				System.out.print("-");
+			}
+			System.out.println("");
+			System.out.println(oper1 * oper2);
+		}
+	}
+//#############################################################################
+
+//#############################################################################
+//######################  MAIN  ###############################################
+//#############################################################################
 	public static void main(String[] args) {
 
 		TestAlgo test = new TestAlgo();
@@ -531,7 +786,11 @@ public class TestAlgo {
 		// test.biggestHighlyCompositeNumber();
 //		test.rajouteDeux();
 //		test.decodeInQuarter();
-		test.soustractBinary();
+//		test.soustractBinary();
+//		test.anagramme();
+//		test.noteStudents();
+//		test.diviseTwoPlusZeroCinq();
+		test.detailMultiplication();
 
 	}
 
